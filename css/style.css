@@ -10,8 +10,8 @@
     --default-ubuntu-sans-font-family: Ubuntu, sans-serif;
     --default-width: 100%;
     --default-height: 100%;
-    --defautl-black-clr: #000000;
-    --defautl-white-clr: #ffffff;
+    --default-black-clr: #000000;
+    --default-white-clr: #ffffff;
     --default-yellow-clr: #f6d54e;
 }
 
@@ -42,6 +42,7 @@
         display: block;
     }
 }
+
 /* Header Style */
 .menubar {
     display: flex;
@@ -77,17 +78,22 @@
     z-index: 9999;
 }
 
+.nav-bar p:hover,
+.nav-bar p:focus {
+    color: #333;
+}
+
 .nav-bar h3 {
     font-weight: 100;
     font-size: 27px;
-    color: var(--defautl-white-clr);
+    color: var(--default-white-clr);
     text-align: right;
     margin: 10px 20px 30px;
 }
 
 .nav-bar p {
     font-family: var(--default-font-family);
-    color: var(--defautl-white-clr);
+    color: var(--default-white-clr);
     font-size: 20px;
     margin: 13px;
     text-align: center;
@@ -147,11 +153,12 @@
     }
 
     .nav-options a {
-        color: var(--defautl-black-clr);
+        color: var(--default-black-clr);
         text-decoration: none;
     }
 
-     .nav-options a:hover, .nav-options a:focus {
+    .nav-options a:hover,
+    .nav-options a:focus {
         color: var(--default-yellow-clr);
     }
 
@@ -159,6 +166,7 @@
         margin: 0;
     }
 }
+
 @media screen and (min-width:1440px) {
     .nav-on-top {
         margin: 30px 0;
@@ -170,21 +178,273 @@
     }
 }
 
-
-
-/* .electrician-services-bill-board{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/electrician-service-sec-one-bg-img.jpg);
+/* Electrician Services - Bill board */
+.electrician-services-bill-board {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/electrician-service-sec-one-bg-img.jpg);
     background-color: #00000066;
-    background-position-x: -167px;
-    background-position-y: -64px;
+    background-position: 37% 0;
     background-repeat: no-repeat;
-    background-size: 714px;
+    background-size: cover;
     width: 100%;
-    height: 390px;
-} */
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ele-serv-bill-board-text {
+    padding-left: 20px;
+}
+
+.ele-serv-bill-board-text h2 {
+    font-family: var(--default-ubuntu-sans-font-family);
+    color: var(--default-white-clr);
+    font-weight: bold;
+    font-size: 33px;
+    letter-spacing: 0.2px;
+    line-height: 36px;
+    padding: 50px 0 14px;
+}
+
+.ele-serv-bill-board-text p {
+    font-family: var(--default-font-family);
+    color: var(--default-white-clr);
+    font-weight: 100;
+    font-size: 14.5px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
+@media screen and (min-width:414px) {
+    .electrician-services-bill-board {
+        background-position: 30% 0;
+        width: 100%;
+        height: 401px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 25px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 37px;
+        letter-spacing: 0.2px;
+        line-height: 39px;
+        padding: 30px 0 14px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 16.5px;
+        letter-spacing: 0.2px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .electrician-services-bill-board {
+        background-position-y: 62%;
+        background-position-x: 0px;
+        width: 100%;
+        height: 335px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 30px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 40px;
+        letter-spacing: 0.3px;
+        line-height: 41px;
+        padding: 54px 0 16px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 17.5px;
+        letter-spacing: 0.4px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .electrician-services-bill-board {
+        background-position-y: 52%;
+        background-position-x: 0px;
+        width: 100%;
+        height: 276px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 70px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 37px;
+        letter-spacing: 0.3px;
+        line-height: 38px;
+        padding: 20px 0 16px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 11.5px;
+        letter-spacing: 0.4px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .electrician-services-bill-board {
+        background-position-y: 51%;
+        width: 100%;
+        height: 376px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 113px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 50px;
+        letter-spacing: 0.4px;
+        line-height: 52px;
+        padding: 21px 0 23px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 15.5px;
+        letter-spacing: 0.4px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .electrician-services-bill-board {
+        background-position-y: 51%;
+        width: 100%;
+        height: 469px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 135px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 53px;
+        letter-spacing: 0.4px;
+        line-height: 54px;
+        padding: 23px 0 28px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 18.5px;
+        letter-spacing: 0.4px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width:1360px) {
+    .electrician-services-bill-board {
+        background-position-y: 51%;
+        width: 100%;
+        height: 497px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 135px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 64px;
+        letter-spacing: 0.4px;
+        line-height: 65px;
+        padding: 22px 0 32px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 21.5px;
+        letter-spacing: 0.4px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .electrician-services-bill-board {
+        background-position-y: 52%;
+        width: 100%;
+        height: 522px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 135px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 69px;
+        letter-spacing: 0.4px;
+        line-height: 71px;
+        padding: 23px 0 34px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 24px;
+        letter-spacing: 0.2px;
+        line-height: 43px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .electrician-services-bill-board {
+        background-position-y: 51%;
+        width: 100%;
+        height: 581px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 135px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 82px;
+        letter-spacing: 0.4px;
+        line-height: 81px;
+        padding: 28px 0 35px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 26px;
+        letter-spacing: 0.2px;
+        line-height: 47px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .electrician-services-bill-board {
+        background-position-y: 52%;
+        width: 100%;
+        height: 693px;
+    }
+
+    .ele-serv-bill-board-text {
+        padding-left: 135px;
+    }
+
+    .ele-serv-bill-board-text h2 {
+        font-size: 82px;
+        letter-spacing: 0.4px;
+        line-height: 81px;
+        padding: 28px 0 35px;
+    }
+
+    .ele-serv-bill-board-text p {
+        font-size: 26px;
+        letter-spacing: 0.2px;
+        line-height: 47px;
+    }
+}
 
 /* Electrician Services section - two */
 .safety-and-service {
+    margin-top: 65px;
     display: flex;
     justify-content: center;
 }
@@ -201,7 +461,7 @@
 
 .safety-and-service-bg h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -211,9 +471,9 @@
 .safety-and-service-btn {
     width: 178px;
     height: 40px;
-    background-color: var(--defautl-black-clr);
+    background-color: var(--default-black-clr);
     font-family: var(--default-font-family);
-    color: var(--defautl-white-clr);
+    color: var(--default-white-clr);
     font-weight: bold;
     font-size: 12px;
     border-radius: 20px;
@@ -408,7 +668,7 @@
 
 .satisfaction-guaranteed-left-content-wraper h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bolder;
     font-size: 28px;
     line-height: 31px;
@@ -417,7 +677,7 @@
 
 .satisfaction-guaranteed-left-content-wraper p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr) #000000;
+    color: var(--default-black-clr) #000000;
     font-weight: 100;
     font-size: 16px;
     letter-spacing: 0.3px;
@@ -427,7 +687,7 @@
 
 .satisfaction-guaranteed-right-content-wraper p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr) #000000;
+    color: var(--default-black-clr) #000000;
     font-weight: 100;
     font-size: 16px;
     letter-spacing: 0.3px;
@@ -456,7 +716,7 @@
     height: 48px;
     background-color: var(--default-yellow-clr);
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bolder;
     font-size: 14px;
     border-style: none;
@@ -945,7 +1205,7 @@
 
 .recent-projects-img-on-text h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -955,7 +1215,7 @@
 
 .recent-projects-img-on-text p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bold;
     font-size: 14px;
     line-height: 22px;
@@ -1298,7 +1558,7 @@
 
 .our-services-sec-heading h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bold;
     font-size: 23px;
     text-align: center;
@@ -1307,7 +1567,7 @@
 
 .our-services-single-box-content h3 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 17px;
     letter-spacing: 0.3px;
@@ -1317,7 +1577,7 @@
 
 .our-services-single-box-content p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 14px;
     line-height: 23px;
@@ -1334,7 +1594,7 @@
 }
 
 .our-services-white-clr-box {
-    background-color: var(--defautl-white-clr);
+    background-color: var(--default-white-clr);
 }
 
 .our-services-yel-clr-box {
@@ -1631,7 +1891,7 @@
 
 .testimonials-heading h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bold;
     font-size: 27px;
     letter-spacing: 0.3px;
@@ -1640,7 +1900,7 @@
 
 .testimonials-content-and-name p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 17px;
     line-height: 24px;
@@ -1650,7 +1910,7 @@
 
 .testimonials-content-and-name h3 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 18px;
     text-align: center;
@@ -2026,7 +2286,7 @@
 
 .feel-free-to-ask-form-heading h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 18px;
     letter-spacing: 0.2px;
@@ -2036,7 +2296,7 @@
 
 .feel-free-to-ask-form-heading h3 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: bold;
     font-size: 28px;
     letter-spacing: 0.2px;
@@ -2049,7 +2309,7 @@ label,
 input,
 textarea {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 15px;
     letter-spacing: 0.5px;
@@ -2086,13 +2346,13 @@ textarea {
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 0.5px;
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     background-color: var(--default-yellow-clr);
 }
 
 #form-submit-btn:hover {
-    color: var(--defautl-white-clr);
-    background-color: var(--defautl-black-clr);
+    color: var(--default-white-clr);
+    background-color: var(--default-black-clr);
     cursor: pointer;
 }
 
@@ -2116,7 +2376,7 @@ textarea {
 
 .our-contact-sec-right-content h2 {
     font-family: var(--default-ubuntu-sans-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 18px;
     margin-bottom: 25px;
@@ -2124,7 +2384,7 @@ textarea {
 
 .our-contact-sec-right-content p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 16px;
     line-height: 25px;
@@ -2145,7 +2405,7 @@ textarea {
 
 .our-contact-sec-right-last-para p {
     font-family: var(--default-font-family);
-    color: var(--defautl-black-clr);
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 16px;
     line-height: 25px;
@@ -2979,8 +3239,8 @@ textarea {
 .footer-container {
     margin-top: 120px;
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--defautl-black-clr);
-    color: var(--defautl-white-clr);
+    background-color: var(--default-black-clr);
+    color: var(--default-white-clr);
     letter-spacing: normal;
     text-align: center;
 }
@@ -2998,13 +3258,13 @@ textarea {
     font-size: 12.5px;
     padding: 51px;
     margin: 0;
-    color: var(--defautl-white-clr);
+    color: var(--default-white-clr);
 }
 
 .link-para,
 .link-para a {
     font-size: 12px;
-    color: var(--defautl-white-clr);
+    color: var(--default-white-clr);
 }
 
 .link-para {
