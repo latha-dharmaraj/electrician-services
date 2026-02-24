@@ -677,7 +677,7 @@
 
 .satisfaction-guaranteed-left-content-wraper p {
     font-family: var(--default-font-family);
-    color: var(--default-black-clr) #000000;
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 16px;
     letter-spacing: 0.3px;
@@ -687,7 +687,7 @@
 
 .satisfaction-guaranteed-right-content-wraper p {
     font-family: var(--default-font-family);
-    color: var(--default-black-clr) #000000;
+    color: var(--default-black-clr);
     font-weight: 100;
     font-size: 16px;
     letter-spacing: 0.3px;
