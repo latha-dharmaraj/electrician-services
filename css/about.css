@@ -1312,7 +1312,7 @@
 
 @media screen and (min-width:600px) {
     .it-solution-strategy-dev-container {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .it-solution-strategy-rno-content {
@@ -1339,7 +1339,7 @@
 
 @media screen and (min-width:768px) {
     .it-solution-strategy-dev-container {
-        margin-top: 20px;
+        margin-top: 50px;
         width: 100%;
     }
 
@@ -1395,7 +1395,7 @@
 
 @media screen and (min-width:1024px) {
     .it-solution-strategy-dev-container {
-        margin-top: 23px;
+        margin-top: 50px;
     }
 
     .it-solution-strategy-rno-content {
@@ -1426,10 +1426,6 @@
 }
 
 @media screen and (min-width:1280px) {
-    .it-solution-strategy-dev-container {
-        margin-top: 23px;
-    }
-
     .it-solution-strategies-wraper {
         width: 80%;
     }
@@ -1462,13 +1458,8 @@
 }
 
 @media screen and (min-width:1360px) {
-    .it-solution-strategy-dev-container {
-        margin-top: 25px;
-    }
-
     .it-solution-strategies-wraper {
         width: 78%;
-        /* background-color: green; */
     }
 
     .it-solution-strategy-rno-content {
@@ -1500,7 +1491,7 @@
 
 @media screen and (min-width:1440px) {
     .it-solution-strategy-dev-container {
-        margin-top: 35px;
+        margin-top: 60px;
     }
 
     .it-solution-strategies-wraper {
@@ -1535,6 +1526,9 @@
 }
 
 @media screen and (min-width:1600px) {
+    .it-solution-strategy-dev-container {
+        margin-top: 85px;
+    }
     .it-solution-strategies-wraper {
         width: 83%;
     }
@@ -1568,6 +1562,9 @@
 }
 
 @media screen and (min-width:1920px) {
+    .it-solution-strategy-dev-container {
+        margin-top: 90px;
+    }
     .it-solution-strategies-wraper {
         width: 83%;
     }
