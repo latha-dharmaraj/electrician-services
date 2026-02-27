@@ -11,3 +11,6 @@ document.querySelector(".about-page").addEventListener("click",function(){
 document.querySelector(".home-page").addEventListener("click",function(){
     window.location.href= "index.html";
 })
+document.querySelector(".contact-page").addEventListener("click", function(){
+    window.location.href= "contact-page.html";
+})  
