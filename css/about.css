@@ -180,7 +180,7 @@
 }
 
 .bill-board-sec-container {
-    background-image: url(../about-imgaes/bill-board-bg-img.jpg);
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../about-imgaes/bill-board-bg-img.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -279,7 +279,8 @@
 
     .bill-board-content-container {
         padding-left: 56px;
-        margin-bottom: 7px;
+        margin-bottom: 44px;
+        margin-top: 30px;
     }
 
     .bill-board-content-container h2 {
@@ -321,73 +322,79 @@
 
 @media screen and (min-width:1280px) {
     .bill-board-sec-container {
-        background-position: 52% 46%;
-        height: 555px;
+        background-position: 18% 46%;
+        height: 529px;
+        background-size: 1424px;
     }
 
     .bill-board-content-container {
-        padding-left: 160px;
+        padding-left: 110px;
         margin-bottom: 2px;
+        margin-top: 42px;
     }
 
     .bill-board-content-container h2 {
-        font-size: 74px;
-        margin-bottom: 27px;
+        font-size: 70px;
+        margin-bottom: 19px;
         letter-spacing: 0.3px;
     }
 
     .bill-board-content-container p {
-        font-size: 28px;
+        font-size: 22px;
         letter-spacing: 0.3px;
-        line-height: 44px;
+        line-height: 37px;
     }
 }
 
 @media screen and (min-width:1360px) {
     .bill-board-sec-container {
-        background-position: 52% 46%;
+        background-position: 18% 46%;
         height: 579px;
+        background-size: 1424px;
     }
 
     .bill-board-content-container {
-        padding-left: 160px;
+        padding-left: 120px;
         margin-bottom: 2px;
+        margin-top: 52px;
     }
 
     .bill-board-content-container h2 {
-        font-size: 79px;
-        margin-bottom: 27px;
+        font-size: 74px;
+        margin-bottom: 19px;
         letter-spacing: 0.3px;
     }
 
     .bill-board-content-container p {
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 0.3px;
-        line-height: 45px;
+        line-height: 37px;
     }
 }
 
 @media screen and (min-width:1440px) {
     .bill-board-sec-container {
-        background-position: 52% 46%;
+        background-position: 18% 46%;
         height: 624px;
+        background-size: 1640px;
     }
 
     .bill-board-content-container {
-        padding-left: 160px;
+        padding-left: 120px;
         margin-bottom: 2px;
+        margin-top: 88px;
     }
 
     .bill-board-content-container h2 {
-        font-size: 86px;
-        margin-bottom: 30px;
-        letter-spacing: 0.5px;
+        font-size: 80px;
+        margin-bottom: 19px;
+        letter-spacing: 0.3px;
     }
 
     .bill-board-content-container p {
-        font-size: 32px;
+        font-size: 27px;
         letter-spacing: 0.3px;
-        line-height: 50px;
+        line-height: 40px;
     }
 }
 
@@ -400,6 +407,7 @@
     .bill-board-content-container {
         padding-left: 160px;
         margin-bottom: 2px;
+        margin-top: 33px;
     }
 
     .bill-board-content-container h2 {
@@ -417,25 +425,27 @@
 
 @media screen and (min-width:1920px) {
     .bill-board-sec-container {
-        background-position: 48% 52%;
-        height: 768px;
+        background-position: 46% 49%;
+        height: 722px;
+        background-size: 1919px;
     }
 
     .bill-board-content-container {
-        padding-left: 160px;
+        padding-left: 198px;
         margin-bottom: 2px;
+        margin-top: 76px;
     }
 
     .bill-board-content-container h2 {
-        font-size: 82px;
-        margin-bottom: 27px;
-        margin-top: 46px;
+        font-size: 90px;
+        margin-bottom: 18px;
+        margin-top: 10px;
     }
 
     .bill-board-content-container p {
-        font-size: 28px;
+        font-size: 32px;
         letter-spacing: 0.3px;
-        line-height: 44px;
+        line-height: 47px;
     }
 }
 

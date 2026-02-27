@@ -182,18 +182,18 @@
 .electrician-services-bill-board {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/electrician-service-sec-one-bg-img.jpg);
     background-color: #00000066;
-    background-position: 37% 0;
+    background-position: 33% 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 488px;
     width: 100%;
-    height: 375px;
+    height: 312px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .ele-serv-bill-board-text {
-    padding-left: 20px;
+    padding-left: 34px;
 }
 
 .ele-serv-bill-board-text h2 {
@@ -217,13 +217,14 @@
 
 @media screen and (min-width:414px) {
     .electrician-services-bill-board {
-        background-position: 30% 0;
+        background-position: 26% 44%;
         width: 100%;
-        height: 401px;
+        height: 327px;
+        background-size: 551px;
     }
 
     .ele-serv-bill-board-text {
-        padding-left: 25px;
+        padding-left: 40px;
     }
 
     .ele-serv-bill-board-text h2 {
@@ -242,14 +243,14 @@
 
 @media screen and (min-width:600px) {
     .electrician-services-bill-board {
-        background-position-y: 62%;
-        background-position-x: 0px;
+        background-position:53% 44%;
         width: 100%;
-        height: 335px;
+        height: 339px;
+        background-size: 600px;
     }
 
     .ele-serv-bill-board-text {
-        padding-left: 30px;
+        padding-left: 60px;
     }
 
     .ele-serv-bill-board-text h2 {
@@ -268,10 +269,10 @@
 
 @media screen and (min-width:768px) {
     .electrician-services-bill-board {
-        background-position-y: 52%;
-        background-position-x: 0px;
+        background-position:54% 50%;
         width: 100%;
-        height: 276px;
+        height: 287px;
+        background-size: 768px;
     }
 
     .ele-serv-bill-board-text {
@@ -294,9 +295,10 @@
 
 @media screen and (min-width:1024px) {
     .electrician-services-bill-board {
-        background-position-y: 51%;
+        background-position:54% 50%;
         width: 100%;
-        height: 376px;
+        height: 383px;
+        background-size: 1026px;
     }
 
     .ele-serv-bill-board-text {
@@ -319,9 +321,10 @@
 
 @media screen and (min-width:1280px) {
     .electrician-services-bill-board {
-        background-position-y: 51%;
+        background-position: 68% 50%;
         width: 100%;
-        height: 469px;
+        height: 477px;
+        background-size: 1280px;
     }
 
     .ele-serv-bill-board-text {
@@ -344,9 +347,10 @@
 
 @media screen and (min-width:1360px) {
     .electrician-services-bill-board {
-        background-position-y: 51%;
+        background-position: 70% 50%;
         width: 100%;
-        height: 497px;
+        height: 507px;
+        background-size: 1366px;
     }
 
     .ele-serv-bill-board-text {
@@ -369,9 +373,10 @@
 
 @media screen and (min-width:1400px) {
     .electrician-services-bill-board {
-        background-position-y: 52%;
+        background-position: 70% 50%;
         width: 100%;
-        height: 522px;
+        height: 538px;
+        background-size: 1443px;
     }
 
     .ele-serv-bill-board-text {
@@ -394,9 +399,10 @@
 
 @media screen and (min-width:1600px) {
     .electrician-services-bill-board {
-        background-position-y: 51%;
+        background-position: 70% 50%;
         width: 100%;
-        height: 581px;
+        height: 598px;
+        background-size: 1601px;
     }
 
     .ele-serv-bill-board-text {
@@ -419,9 +425,10 @@
 
 @media screen and (min-width:1920px) {
     .electrician-services-bill-board {
-        background-position-y: 52%;
+        background-position: 70% 50%;
         width: 100%;
-        height: 693px;
+        height: 716px;
+        background-size: 1917px;
     }
 
     .ele-serv-bill-board-text {
