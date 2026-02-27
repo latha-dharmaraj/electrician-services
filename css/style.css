@@ -47,9 +47,9 @@
 .menubar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
-    margin: 25px 0 25px;
+    margin: 25px 0 25px 25px;
 }
 
 .menubar-parent .fa-bars {
@@ -106,7 +106,7 @@
 
 @media screen and (min-width:414px) {
     .menubar {
-        margin: 25px 0 25px;
+        margin: 25px 0 25px 25px;
     }
 
     .menubar-parent .fa-bars {
@@ -130,6 +130,9 @@
 }
 
 @media screen and (min-width:600px) {
+    .menubar {
+        margin: 25px 0 25px 60px;
+    }
     .nav-bar {
         width: 250px;
         height: 100%;
