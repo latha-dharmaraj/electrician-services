@@ -183,7 +183,7 @@
 }
 
 .bill-board-sec-container {
-    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../about-imgaes/bill-board-bg-img.jpg);
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../about-images/bill-board-bg-img.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -661,7 +661,7 @@
     }
 
     /* .fmly-business-img{
-        background-image: url(../about-imgaes/fmly-business-right-img.jpg);
+        background-image: url(../about-images/fmly-business-right-img.jpg);
         background-position-x: 64%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -941,7 +941,7 @@
 
 .bg-third-sec-bg-img {
     margin-top: 50px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../about-imgaes/third-sec-bg-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../about-images/third-sec-bg-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1663,19 +1663,19 @@
 }
 
 .person-profile-one {
-    background-image: url(..//about-imgaes/our-leadership-people-profile-img1.jpg);
+    background-image: url(..//about-images/our-leadership-people-profile-img1.jpg);
     background-position-y: 8%;
     background-position-x: -25%;
 }
 
 .person-profile-two {
-    background-image: url(..//about-imgaes/our-leadership-people-profile-img2.jpg);
+    background-image: url(..//about-images/our-leadership-people-profile-img2.jpg);
     background-position-y: 48%;
     background-position-x: -25%;
 }
 
 .person-profile-three {
-    background-image: url(..//about-imgaes/our-leadership-people-profile-img3.jpg);
+    background-image: url(..//about-images/our-leadership-people-profile-img3.jpg);
     background-position-y: 3%;
     background-position-x: -25%;
 }

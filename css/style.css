@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0
 }
-
 :root {
     --default-margin-top: 100px;
     --default-margin-bottom: 100px;
@@ -14,30 +13,24 @@
     --default-white-clr: #ffffff;
     --default-yellow-clr: #f6d54e;
 }
-
 @media screen and (max-width:767px) {
     .show-for-small-only {
         display: block;
     }
-
     .hide-for-small-only {
         display: none;
     }
-
     .show-for-all-devices {
         display: block;
     }
 }
-
 @media screen and (min-width:768px) {
     .show-for-small-only {
         display: none;
     }
-
     .hide-for-small-only {
         display: block;
     }
-
     .show-for-all-devices {
         display: block;
     }
@@ -51,12 +44,10 @@
     width: 100%;
     margin: 25px 0 25px 25px;
 }
-
 .menubar-parent .fa-bars {
     color: #000000;
     font-size: 30px;
 }
-
 .side-nav-bar {
     display: none;
     width: 100%;
@@ -67,7 +58,6 @@
     left: 0;
     z-index: 99;
 }
-
 .nav-bar {
     background-color: #000000db;
     width: 68%;
@@ -77,12 +67,10 @@
     left: 0;
     z-index: 9999;
 }
-
 .nav-bar p:hover,
 .nav-bar p:focus {
     color: #333;
 }
-
 .nav-bar h3 {
     font-weight: 100;
     font-size: 27px;
@@ -90,7 +78,6 @@
     text-align: right;
     margin: 10px 20px 30px;
 }
-
 .nav-bar p {
     font-family: var(--default-font-family);
     color: var(--default-white-clr);
@@ -98,31 +85,25 @@
     margin: 13px;
     text-align: center;
 }
-
 .nav-open {
     display: block;
     width: 100%;
 }
-
 @media screen and (min-width:414px) {
     .menubar {
         margin: 25px 0 25px 25px;
     }
-
     .menubar-parent .fa-bars {
         font-size: 33px;
     }
-
     .nav-bar {
         width: 230px;
         height: 100%;
     }
-
     .nav-bar h3 {
         font-size: 28px;
         margin: 10px 20px 34px;
     }
-
     .nav-bar p {
         font-size: 22px;
         margin: 13px;
@@ -145,7 +126,6 @@
         justify-content: center;
         margin: 25px 0;
     }
-
     .nav-options p {
         font-family: var(--default-font-family);
         font-weight: 100;
@@ -154,17 +134,14 @@
         text-align: center;
         padding: 17px;
     }
-
     .nav-options a {
         color: var(--default-black-clr);
         text-decoration: none;
     }
-
     .nav-options a:hover,
     .nav-options a:focus {
         color: var(--default-yellow-clr);
     }
-
     .menubar {
         margin: 0;
     }
@@ -174,7 +151,6 @@
     .nav-on-top {
         margin: 30px 0;
     }
-
     .nav-options p {
         font-size: 17px;
         padding: 18px;
@@ -194,11 +170,9 @@
     flex-direction: row;
     align-items: center;
 }
-
 .ele-serv-bill-board-text {
     padding-left: 34px;
 }
-
 .ele-serv-bill-board-text h2 {
     font-family: var(--default-ubuntu-sans-font-family);
     color: var(--default-white-clr);
@@ -208,7 +182,6 @@
     line-height: 36px;
     padding: 50px 0 14px;
 }
-
 .ele-serv-bill-board-text p {
     font-family: var(--default-font-family);
     color: var(--default-white-clr);
@@ -217,7 +190,6 @@
     letter-spacing: 0.2px;
     line-height: 24px;
 }
-
 @media screen and (min-width:414px) {
     .electrician-services-bill-board {
         background-position: 26% 44%;
@@ -225,25 +197,21 @@
         height: 327px;
         background-size: 551px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 40px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 37px;
         letter-spacing: 0.2px;
         line-height: 39px;
         padding: 30px 0 14px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 16.5px;
         letter-spacing: 0.2px;
         line-height: 27px;
     }
 }
-
 @media screen and (min-width:600px) {
     .electrician-services-bill-board {
         background-position:53% 44%;
@@ -251,18 +219,15 @@
         height: 339px;
         background-size: 600px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 60px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 40px;
         letter-spacing: 0.3px;
         line-height: 41px;
         padding: 54px 0 16px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 17.5px;
         letter-spacing: 0.4px;
@@ -277,18 +242,15 @@
         height: 287px;
         background-size: 768px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 70px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 37px;
         letter-spacing: 0.3px;
         line-height: 38px;
         padding: 20px 0 16px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 11.5px;
         letter-spacing: 0.4px;
@@ -303,18 +265,15 @@
         height: 383px;
         background-size: 1026px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 113px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 50px;
         letter-spacing: 0.4px;
         line-height: 52px;
         padding: 21px 0 23px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 15.5px;
         letter-spacing: 0.4px;
@@ -329,18 +288,15 @@
         height: 477px;
         background-size: 1280px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 135px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 53px;
         letter-spacing: 0.4px;
         line-height: 54px;
         padding: 23px 0 28px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 18.5px;
         letter-spacing: 0.4px;
@@ -355,18 +311,15 @@
         height: 507px;
         background-size: 1366px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 135px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 64px;
         letter-spacing: 0.4px;
         line-height: 65px;
         padding: 22px 0 32px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 21.5px;
         letter-spacing: 0.4px;
@@ -381,18 +334,15 @@
         height: 538px;
         background-size: 1443px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 135px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 69px;
         letter-spacing: 0.4px;
         line-height: 71px;
         padding: 23px 0 34px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 24px;
         letter-spacing: 0.2px;
@@ -407,18 +357,15 @@
         height: 598px;
         background-size: 1601px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 135px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 82px;
         letter-spacing: 0.4px;
         line-height: 81px;
         padding: 28px 0 35px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 26px;
         letter-spacing: 0.2px;
@@ -433,18 +380,15 @@
         height: 716px;
         background-size: 1917px;
     }
-
     .ele-serv-bill-board-text {
         padding-left: 135px;
     }
-
     .ele-serv-bill-board-text h2 {
         font-size: 82px;
         letter-spacing: 0.4px;
         line-height: 81px;
         padding: 28px 0 35px;
     }
-
     .ele-serv-bill-board-text p {
         font-size: 26px;
         letter-spacing: 0.2px;
@@ -458,7 +402,6 @@
     display: flex;
     justify-content: center;
 }
-
 .safety-and-service-bg {
     background-color: var(--default-yellow-clr);
     width: 80%;
@@ -468,7 +411,6 @@
     justify-content: space-around;
     align-items: center;
 }
-
 .safety-and-service-bg h2 {
     font-family: var(--default-ubuntu-sans-font-family);
     color: var(--default-black-clr);
@@ -477,7 +419,6 @@
     text-align: center;
     padding: 0 8px;
 }
-
 .safety-and-service-btn {
     width: 178px;
     height: 40px;
@@ -489,22 +430,18 @@
     border-radius: 20px;
     border-style: none;
 }
-
 .safety-and-service-btn:hover {
     cursor: pointer;
 }
-
 @media screen and (min-width:414px) {
     .safety-and-service-bg {
         width: 80%;
         height: 216px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 24px;
         padding: 0 11px;
     }
-
     .safety-and-service-btn {
         width: 210px;
         height: 46px;
@@ -519,12 +456,10 @@
         width: 80%;
         height: 270px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 33px;
         padding: 0 21px;
     }
-
     .safety-and-service-btn {
         width: 283px;
         height: 52px;
@@ -533,7 +468,6 @@
         letter-spacing: 0.5px;
     }
 }
-
 @media screen and (min-width:768px) {
     .safety-and-service-bg {
         width: 85%;
@@ -543,12 +477,10 @@
         justify-content: space-around;
         align-items: center;
     }
-
     .safety-and-service-bg h2 {
         font-size: 21px;
         padding: 0 22px 0 0;
     }
-
     .safety-and-service-btn {
         width: 120px;
         height: 31px;
@@ -558,112 +490,96 @@
         margin: 0 30px 0 0;
     }
 }
-
 @media screen and (min-width:1024px) {
     .safety-and-service-bg {
         width: 85%;
         height: 100px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 26px;
-        padding: 0px 39px 0 0;
+        padding: 0 39px 0 0;
     }
-
     .safety-and-service-btn {
         width: 169px;
         height: 36px;
         font-size: 10px;
         border-radius: 18px;
         letter-spacing: 0;
-        margin: 0px 35px 0 0;
+        margin: 0 35px 0 0;
     }
 }
-
 @media screen and (min-width:1280px) {
     .safety-and-service-bg {
         width: 85%;
         height: 120px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 34px;
-        padding: 0px 52px 0 0;
+        padding: 0 52px 0 0;
     }
-
     .safety-and-service-btn {
         width: 187px;
         height: 41px;
         font-size: 13px;
         border-radius: 21px;
         letter-spacing: 0;
-        margin: 0px 34px 0 0;
+        margin: 0 34px 0 0;
     }
 }
-
 @media screen and (min-width:1440px) {
     .safety-and-service-bg {
         width: 85%;
         height: 130px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 36px;
-        padding: 0px 60px 0 0;
+        padding: 0 60px 0 0;
     }
-
     .safety-and-service-btn {
         width: 198px;
         height: 44px;
         font-size: 14px;
         border-radius: 22px;
         letter-spacing: 0;
-        margin: 0px 43px 0 0;
+        margin: 0 43px 0 0;
     }
 }
-
 @media screen and (min-width:1600px) {
     .safety-and-service-bg {
         width: 85%;
         height: 140px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 42px;
-        padding: 0px 80px 0 0;
+        padding: 0 80px 0 0;
     }
-
     .safety-and-service-btn {
         width: 224px;
         height: 50px;
         font-size: 15px;
         border-radius: 25px;
         letter-spacing: 0;
-        margin: 0px 49px 0 0;
+        margin: 0 49px 0 0;
     }
 }
-
 @media screen and (min-width:1920px) {
     .safety-and-service-bg {
         width: 85%;
         height: 150px;
     }
-
     .safety-and-service-bg h2 {
         font-size: 49px;
-        padding: 0px 80px 0 0;
+        padding: 0 80px 0 0;
     }
-
     .safety-and-service-btn {
         width: 251px;
         height: 57px;
         font-size: 17px;
         border-radius: 28px;
         letter-spacing: 0;
-        margin: 0px 69px 0 0;
+        margin: 0 69px 0 0;
     }
 }
-
 /* 3rd Section */
 .satisfaction-guaranteed-sec {
     margin-top: 80px;
@@ -671,11 +587,9 @@
     flex-direction: column;
     justify-content: center;
 }
-
 .satisfaction-guaranteed-left-content-container {
     padding: 30px 25px;
 }
-
 .satisfaction-guaranteed-left-content-wraper h2 {
     font-family: var(--default-ubuntu-sans-font-family);
     color: var(--default-black-clr);
@@ -684,7 +598,6 @@
     line-height: 31px;
     margin: 0 0 20px;
 }
-
 .satisfaction-guaranteed-left-content-wraper p {
     font-family: var(--default-font-family);
     color: var(--default-black-clr);
@@ -694,7 +607,6 @@
     line-height: 22px;
     margin: 0 0 30px;
 }
-
 .satisfaction-guaranteed-right-content-wraper p {
     font-family: var(--default-font-family);
     color: var(--default-black-clr);
@@ -703,24 +615,20 @@
     letter-spacing: 0.3px;
     line-height: 24px;
 }
-
 .satisfaction-guaranteed-right-content-wraper {
     display: flex;
     flex-direction: column;
     padding: 30px 23px;
 }
-
 .sati-guar-p {
     display: flex;
     flex-direction: row;
 }
-
 .sati-guar-p-points {
     color: var(--default-yellow-clr);
     font-size: 22px;
     padding-right: 22px;
 }
-
 .satisfaction-guaranteed-sec-button {
     width: 205px;
     height: 48px;
@@ -733,45 +641,37 @@
     border-radius: 24px;
     letter-spacing: 0.11px;
 }
-
 .satisfaction-guaranteed-sec-button:hover {
     cursor: pointer;
     background-color: #f6d51e;
 }
-
 @media screen and (min-width:414px) {
     .satisfaction-guaranteed-left-content-container {
         padding: 45px 35px 40px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 31px;
         line-height: 33px;
         margin: 0 0 24px
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 17px;
         letter-spacing: 0.3px;
         line-height: 23px;
         margin: 0 0 37px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 17px;
         letter-spacing: 0.3px;
         line-height: 25px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
         padding: 30px 37px;
     }
-
     .sati-guar-p-points {
         font-size: 26px;
         padding-right: 25px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 207px;
         height: 49px;
@@ -780,7 +680,6 @@
         letter-spacing: 0.2px;
     }
 }
-
 @media screen and (min-width:600px) {
     .satisfaction-guaranteed-sec {
         margin-top: var(--default-margin-top);
@@ -789,39 +688,32 @@
         justify-content: center;
         align-items: center;
     }
-
     .satisfaction-guaranteed-left-content-container {
         padding: 45px 35px 40px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 34px;
         line-height: 36px;
         margin: 0 0 28px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 18px;
         letter-spacing: 0.3px;
         line-height: 30px;
         margin: 0 0 46px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 18px;
         letter-spacing: 0.4px;
         line-height: 29px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
         padding: 30px 40px 30px 69px;
     }
-
     .sati-guar-p-points {
         font-size: 28px;
         padding-right: 30px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 224px;
         height: 53px;
@@ -836,56 +728,47 @@
         flex-direction: row;
         justify-content: flex-start;
     }
-
     .satisfaction-guaranteed-left-content-container {
         width: 50%;
         padding: 0;
         /* background-color: red; */
     }
-
     .satisfaction-guaranteed-left-content-wraper {
         width: 78%;
         padding-left: 61px;
         /* background-color: green; */
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 29px;
         line-height: 28px;
-        margin: 0px 0 17px;
+        margin: 0 0 17px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 13px;
         letter-spacing: 0.1px;
         line-height: 20px;
         margin: 0 0 19px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 13px;
         letter-spacing: 0.3px;
         line-height: 24px;
         margin-bottom: -13px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
         display: flex;
         flex-direction: column;
-        padding: 0px 40px;
+        padding: 0 40px;
         /* background-color: blueviolet; */
     }
-
     .satisfaction-guaranteed-right-content-container {
         width: 50%;
         /* background-color: rgb(19, 0, 128); */
     }
-
     .sati-guar-p-points {
         font-size: 18px;
         padding-right: 19px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 124px;
         height: 30px;
@@ -894,42 +777,35 @@
         letter-spacing: 0.1px;
     }
 }
-
 @media screen and (min-width:1024px) {
     .satisfaction-guaranteed-left-content-wraper {
         width: 67%;
         padding-left: 127px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 33px;
         line-height: 33px;
         margin: 0 0 22px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 15px;
         letter-spacing: 0.1px;
         line-height: 26px;
         margin: 0 0 22px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 15px;
         letter-spacing: 0.4px;
         line-height: 26px;
         margin-bottom: -7px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
-        padding: 0px 40px;
+        padding: 0 40px;
     }
-
     .sati-guar-p-points {
         font-size: 20px;
         padding-right: 23px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 145px;
         height: 33px;
@@ -938,42 +814,35 @@
         letter-spacing: 0.2px;
     }
 }
-
 @media screen and (min-width:1280px) {
     .satisfaction-guaranteed-left-content-wraper {
         width: 58%;
         padding-left: 203px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 37px;
         line-height: 37px;
         margin: 0 0 20px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 16px;
         letter-spacing: 0.12px;
         line-height: 28px;
         margin: 0 0 28px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 16px;
         letter-spacing: 0.44px;
         line-height: 28px;
         margin-bottom: -4px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
-        padding: 0px 40px;
+        padding: 0 40px;
     }
-
     .sati-guar-p-points {
         font-size: 23px;
         padding-right: 27px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 162px;
         height: 37px;
@@ -982,42 +851,35 @@
         letter-spacing: 0.3px;
     }
 }
-
 @media screen and (min-width:1360px) {
     .satisfaction-guaranteed-left-content-wraper {
         width: 60%;
         padding-left: 210px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 40px;
         line-height: 38px;
         margin: 0 0 23px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 17.5px;
         letter-spacing: 0.2px;
         line-height: 31px;
         margin: 0 0 35px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 17.5px;
         letter-spacing: 0.2px;
         line-height: 31px;
         margin-bottom: -1px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
-        padding: 0px 40px;
+        padding: 0 40px;
     }
-
     .sati-guar-p-points {
         font-size: 24px;
         padding-right: 31px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 177px;
         height: 41px;
@@ -1026,42 +888,35 @@
         letter-spacing: 0.4px;
     }
 }
-
 @media screen and (min-width:1440px) {
     .satisfaction-guaranteed-left-content-wraper {
         width: 59%;
         padding-left: 234px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 42px;
         line-height: 43px;
         margin: 0 0 20px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 18px;
         letter-spacing: 0.3px;
         line-height: 33px;
         margin: 0 0 32px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 18px;
         letter-spacing: 0.3px;
         line-height: 33px;
         margin-bottom: 1px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
-        padding: 0px 40px;
+        padding: 0 40px;
     }
-
     .sati-guar-p-points {
         font-size: 26px;
         padding-right: 33px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 195px;
         height: 45px;
@@ -1070,42 +925,35 @@
         letter-spacing: 0.4px;
     }
 }
-
 @media screen and (min-width:1600px) {
     .satisfaction-guaranteed-left-content-wraper {
         width: 59%;
         padding-left: 250px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 45px;
         line-height: 47px;
         margin: 0 0 22px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 20px;
         letter-spacing: 0.4px;
         line-height: 35px;
         margin: 0 0 36px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 20px;
         letter-spacing: 0.4px;
         line-height: 35px;
         margin-bottom: 2px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
-        padding: 0px 40px;
+        padding: 0 40px;
     }
-
     .sati-guar-p-points {
         font-size: 27px;
         padding-right: 35px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 200px;
         height: 47px;
@@ -1114,42 +962,35 @@
         letter-spacing: 0.5px;
     }
 }
-
 @media screen and (min-width:1920px) {
     .satisfaction-guaranteed-left-content-wraper {
         width: 66%;
         padding-left: 247px;
     }
-
     .satisfaction-guaranteed-left-content-wraper h2 {
         font-size: 65px;
         line-height: 63px;
         margin: 0 0 34px;
     }
-
     .satisfaction-guaranteed-left-content-wraper p {
         font-size: 27px;
         letter-spacing: 0.5px;
         line-height: 39px;
         margin: 0 0 47px;
     }
-
     .satisfaction-guaranteed-right-content-wraper p {
         font-size: 27px;
         letter-spacing: 0.5px;
         line-height: 39px;
         margin-bottom: 16px;
     }
-
     .satisfaction-guaranteed-right-content-wraper {
-        padding: 0px 30px 0 40px;
+        padding: 0 30px 0 40px;
     }
-
     .sati-guar-p-points {
         font-size: 38px;
         padding-right: 47px;
     }
-
     .satisfaction-guaranteed-sec-button {
         width: 270px;
         height: 65px;
@@ -1158,26 +999,22 @@
         letter-spacing: 0.6px;
     }
 }
-
 /* Recent Projects Section */
 
 .recent-projects-sec-container {
     margin-top: 90px;
 }
-
 .recent-projects-sec-wraper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .recent-projects-img {
     width: 300px;
     height: 296px;
     margin-bottom: 20px;
 }
-
 .recent-projects-img-left-top {
     background-image: url(../images/recent-projects-sec-fourth-img1.jpg);
     background-repeat: no-repeat;
@@ -1186,19 +1023,15 @@
     width: 300px;
     height: 336px;
 }
-
 .recent-projects-img-right-top {
     background: url('../images/recent-projects-sec-fourth-img2.jpg') center / cover no-repeat;
 }
-
 .recent-projects-img-bottom-left {
     background: url('../images/recent-projects-sec-fourth-img3.jpg') center / cover no-repeat;
 }
-
 .recent-projects-img-bottom-right {
     background: url('../images/recent-projects-sec-fourth-img4.jpg') center / cover no-repeat;
 }
-
 .recent-projects-img-on-text-container {
     background-color: var(--default-yellow-clr);
     width: 281px;
@@ -1208,11 +1041,9 @@
     left: 10px;
     z-index: 9999;
 }
-
 .rec-proj-txt-on-img-cont {
     position: relative;
 }
-
 .recent-projects-img-on-text h2 {
     font-family: var(--default-ubuntu-sans-font-family);
     color: var(--default-black-clr);
@@ -1222,7 +1053,6 @@
     margin-top: 40px;
     margin-bottom: 18px;
 }
-
 .recent-projects-img-on-text p {
     font-family: var(--default-font-family);
     color: var(--default-black-clr);
@@ -1231,71 +1061,60 @@
     line-height: 22px;
     text-align: center;
 }
-
 @media screen and (min-width:414px) {
     .recent-projects-img {
         width: 323px;
         height: 322px;
         margin-bottom: 20px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 48%;
         width: 323px;
         height: 370px;
     }
-
     .recent-projects-img-on-text-container {
         width: 303px;
         height: 312px;
         top: 32px;
         left: 10px;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 21px;
         margin-top: 44px;
         margin-bottom: 20px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 15px;
         line-height: 24px;
     }
 }
-
 @media screen and (min-width:600px) {
     .recent-projects-img {
         width: 349px;
         height: 337px;
         margin-bottom: 20px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 48%;
         width: 349px;
         height: 401px;
     }
-
     .recent-projects-img-on-text-container {
         width: 329px;
         height: 337px;
         top: 33px;
         left: 10px;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 22px;
         margin-top: 47px;
         margin-bottom: 21px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 16px;
         line-height: 27px;
     }
 }
-
 @media screen and (min-width:768px) {
     .recent-projects-img-pair-par {
         display: flex;
@@ -1304,7 +1123,6 @@
         align-items: center;
         width: 100%;
     }
-
     .recent-projects-img {
         width: 50%;
         width: 301px;
@@ -1312,142 +1130,119 @@
         margin-bottom: 18px;
         margin-right: 18px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 51%;
         width: 301px;
         height: 312px;
     }
-
     .recent-projects-img-on-text-container {
         width: 233px;
         height: 183px;
         top: 62px;
         left: 108px;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 17px;
         margin-top: 30px;
         margin-bottom: 11px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 11px;
         line-height: 17px;
     }
-
     .recent-projects-img-right-top,
     .recent-projects-img-bottom-right {
         margin-right: 0;
     }
 }
-
 @media screen and (min-width:1024px) {
     .recent-projects-img {
         width: 366px;
         height: 360px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 51%;
         width: 366px;
         height: 360px;
     }
-
     .recent-projects-img-on-text-container {
         width: 289px;
         height: 224px;
         top: 67px;
         left: 176px;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 19px;
         margin-top: 36px;
         margin-bottom: 13px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 13px;
         line-height: 21px;
     }
 }
-
 @media screen and (min-width:1280px) {
     .recent-projects-img {
         width: 437px;
         height: 444px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 49%;
         width: 437px;
         height: 444px;
     }
-
     .recent-projects-img-on-text-container {
         width: 340px;
         height: 285px;
         top: 75px;
         left: 246px;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 25px;
         margin-top: 45px;
         margin-bottom: 17px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 16px;
         line-height: 25px;
     }
 }
-
 @media screen and (min-width:1360px) {
     .recent-projects-img {
         width: 450px;
         height: 469px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 49%;
         width: 450px;
         height: 469px;
     }
-
     .recent-projects-img-on-text-container {
         width: 352px;
         height: 277px;
         top: 96px;
         left: 274px;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 27px;
         margin-top: 46px;
         margin-bottom: 16px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 17px;
         line-height: 26px;
     }
 }
-
 @media screen and (min-width:1440px) {
     .recent-projects-img {
         width: 460px;
         height: 477px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 49%;
         width: 460px;
         height: 477px;
     }
-
     .recent-projects-img-on-text-container {
         width: 370px;
         height: 283px;
@@ -1460,43 +1255,36 @@
         margin-top: 47px;
         margin-bottom: 17px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 17px;
         line-height: 26px;
     }
 }
-
 @media screen and (min-width:1600px) {
     .recent-projects-img {
         width: 515px;
         height: 537px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 49%;
         width: 515px;
         height: 537px;
     }
-
     .recent-projects-img-on-text-container {
         width: 401px;
         height: 337px;
         top: 17%;
         left: 21%;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 34px;
         margin-top: 49px;
         margin-bottom: 19px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 19px;
         line-height: 31px;
     }
-
     .rec-proj-txt-on-img-cont-parent {
         display: flex;
         flex-direction: row;
@@ -1512,31 +1300,26 @@
         margin-bottom: 25px;
         margin-right: 25px;
     }
-
     .recent-projects-img-left-top {
         background-position-y: 49%;
         width: 580px;
         height: 610px;
     }
-
     .recent-projects-img-on-text-container {
         width: 477px;
         height: 356px;
         top: 21%;
         left: 21%;
     }
-
     .recent-projects-img-on-text h2 {
         font-size: 39px;
         margin-top: 51px;
         margin-bottom: 21px;
     }
-
     .recent-projects-img-on-text p {
         font-size: 21.5px;
         line-height: 34px;
     }
-
     .rec-proj-txt-on-img-cont-parent {
         display: flex;
         flex-direction: row;
@@ -1549,13 +1332,11 @@
 .our-services-sec-container {
     margin-top: 80px;
 }
-
 .our-services-sec-wraper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .our-services-single-box-container {
     display: flex;
     flex-direction: column;
@@ -1565,7 +1346,6 @@
     height: 208px;
     margin-bottom: 20px;
 }
-
 .our-services-sec-heading h2 {
     font-family: var(--default-ubuntu-sans-font-family);
     color: var(--default-black-clr);
@@ -1574,7 +1354,6 @@
     text-align: center;
     margin-bottom: 22px;
 }
-
 .our-services-single-box-content h3 {
     font-family: var(--default-ubuntu-sans-font-family);
     color: var(--default-black-clr);
@@ -1584,7 +1363,6 @@
     text-align: center;
     margin-top: 22px;
 }
-
 .our-services-single-box-content p {
     font-family: var(--default-font-family);
     color: var(--default-black-clr);
@@ -1594,23 +1372,18 @@
     text-align: center;
     margin-top: 14px;
 }
-
 .our-services-single-box-img {
     width: 50px;
 }
-
 .our-services-single-box-img img {
     width: 100%;
 }
-
 .our-services-white-clr-box {
     background-color: var(--default-white-clr);
 }
-
 .our-services-yel-clr-box {
     background-color: var(--default-yellow-clr);
 }
-
 @media screen and (min-width:414px) {
     .our-services-single-box-container {
         width: 323px;
@@ -1689,7 +1462,7 @@
     .our-services-single-box-container {
         width: 196px;
         height: 160px;
-        margin: 0px 10px 10px 0;
+        margin: 0 10px 10px 0;
     }
 
     .our-services-three-box-container {
@@ -1722,7 +1495,7 @@
 
     .our-services-single-box-img {
         width: 37px;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -1730,7 +1503,7 @@
     .our-services-single-box-container {
         width: 240px;
         height: 170px;
-        margin: 0px 10px 10px 0;
+        margin: 0 10px 10px 0;
     }
 
     .our-services-sec-heading h2 {
@@ -1753,7 +1526,7 @@
 
     .our-services-single-box-img {
         width: 41px;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -1761,7 +1534,7 @@
     .our-services-single-box-container {
         width: 285px;
         height: 191px;
-        margin: 0px 10px 10px 0;
+        margin: 0 10px 10px 0;
     }
 
     .our-services-sec-heading h2 {
@@ -1784,7 +1557,7 @@
 
     .our-services-single-box-img {
         width: 44px;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -1792,7 +1565,7 @@
     .our-services-single-box-container {
         width: 292px;
         height: 209px;
-        margin: 0px 14px 14px 0;
+        margin: 0 14px 14px 0;
     }
 
     .our-services-sec-heading h2 {
@@ -1815,7 +1588,7 @@
 
     .our-services-single-box-img {
         width: 49px;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -1823,7 +1596,7 @@
     .our-services-single-box-container {
         width: 341px;
         height: 241px;
-        margin: 0px 15px 15px 0;
+        margin: 0 15px 15px 0;
     }
 
     .our-services-sec-heading h2 {
@@ -1846,7 +1619,7 @@
 
     .our-services-single-box-img {
         width: 57px;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -1854,7 +1627,7 @@
     .our-services-single-box-container {
         width: 390px;
         height: 284px;
-        margin: 0px 15px 15px 0;
+        margin: 0 15px 15px 0;
     }
 
     .our-services-sec-heading h2 {
@@ -1877,7 +1650,7 @@
 
     .our-services-single-box-img {
         width: 63px;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -2011,7 +1784,7 @@
     .testimonials-img-cont-single-container {
         flex-direction: row;
         width: 349px;
-        padding: 40px 0px 32px 0;
+        padding: 40px 0 32px 0;
     }
 
     .testimonials-img-content-wraper .second-person-of-each-pair {
@@ -2067,7 +1840,7 @@
 
     .testimonials-img-cont-single-container {
         width: 413px;
-        padding: 40px 0px 32px 0;
+        padding: 40px 0 32px 0;
     }
 
     .testimonials-img-content-wraper {
@@ -2139,7 +1912,7 @@
 
     .testimonials-img-cont-single-container {
         width: 523px;
-        padding: 55px 0px 9px 0;
+        padding: 55px 0 9px 0;
     }
 
     .testimonials-img-content-wraper {
@@ -2247,7 +2020,7 @@
 
     .testimonials-img-cont-single-container {
         width: 733px;
-        padding: 83px 0px 54px 0;
+        padding: 83px 0 54px 0;
     }
 
     .testimonials-img-content-wraper {
@@ -2328,9 +2101,9 @@ input {
     background-color: #f2f2f2;
     width: 290px;
     height: 45px;
-    padding: 0px 12px;
+    padding: 0 12px;
     border-style: none;
-    margin: 4px 15px 15px 0px;
+    margin: 4px 15px 15px 0;
 }
 
 input:focus,
@@ -2408,7 +2181,7 @@ textarea {
     height: 110px;
     margin-bottom: 25px;
     background: linear-gradient(90deg, rgba(246, 213, 78, 1) 6%, rgb(242, 242, 242) 5%);
-    padding: 0px 10px;
+    padding: 0 10px;
     color: rgb(242, 242, 242);
 }
 
@@ -2454,8 +2227,8 @@ textarea {
     input {
         width: 300px;
         height: 47px;
-        padding: 0px 13px;
-        margin: 4px 17px 15px 0px;
+        padding: 0 13px;
+        margin: 4px 17px 15px 0;
     }
 
     textarea {
@@ -2537,8 +2310,8 @@ textarea {
     input {
         width: 330px;
         height: 46px;
-        padding: 0px 13px;
-        margin: 3px 0px 15px 0px;
+        padding: 0 13px;
+        margin: 3px 0 15px 0;
     }
 
     textarea {
@@ -2620,7 +2393,7 @@ textarea {
         font-size: 20px;
         letter-spacing: 0.2px;
         line-height: 22px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     label,
@@ -2633,7 +2406,7 @@ textarea {
     input {
         width: 283px;
         height: 38px;
-        padding: 0px 10px;
+        padding: 0 10px;
         margin: 4px 0 5px;
     }
 
@@ -2685,7 +2458,7 @@ textarea {
         width: 246px;
         height: 88px;
         margin-bottom: 0;
-        padding: 0px 9px 0 13px;
+        padding: 0 9px 0 13px;
     }
 
     .our-contact-sec-right-last-para p {
@@ -2714,7 +2487,7 @@ textarea {
         font-size: 26px;
         letter-spacing: 0.1px;
         line-height: 32px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     label,
@@ -2727,7 +2500,7 @@ textarea {
     input {
         width: 310px;
         height: 46px;
-        padding: 0px 13px;
+        padding: 0 13px;
         margin: 4px 0 11px;
     }
 
@@ -2770,7 +2543,7 @@ textarea {
     .our-contact-sec-right-last-content {
         width: 343px;
         height: 92px;
-        padding: 0px 9px 0 5px;
+        padding: 0 9px 0 5px;
     }
 
     .our-contact-sec-right-last-para p {
@@ -2799,7 +2572,7 @@ textarea {
         font-size: 26px;
         letter-spacing: 0.1px;
         line-height: 32px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     label,
@@ -2812,7 +2585,7 @@ textarea {
     input {
         width: 351px;
         height: 51px;
-        padding: 0px 13px;
+        padding: 0 13px;
         margin: 5px 0 15px;
     }
 
@@ -2855,7 +2628,7 @@ textarea {
     .our-contact-sec-right-last-content {
         width: 360px;
         height: 98px;
-        padding: 0px 15px 0 5px;
+        padding: 0 15px 0 5px;
     }
 
     .our-contact-sec-right-last-para p {
@@ -2906,7 +2679,7 @@ textarea {
     input {
         width: 410px;
         height: 52px;
-        padding: 0px 13px;
+        padding: 0 13px;
         margin: 7px 0 17px;
     }
 
@@ -2949,7 +2722,7 @@ textarea {
     .our-contact-sec-right-last-content {
         width: 415px;
         height: 102px;
-        padding: 0px 16px 0 0px;
+        padding: 0 16px 0 0;
     }
 
     .our-contact-sec-right-last-para p {
@@ -3000,7 +2773,7 @@ textarea {
     input {
         width: 440px;
         height: 48px;
-        padding: 0px 14px;
+        padding: 0 14px;
         margin: 8px 0 19px;
     }
 
@@ -3043,7 +2816,7 @@ textarea {
     .our-contact-sec-right-last-content {
         width: 435px;
         height: 107px;
-        padding: 0px 0px 0 0px;
+        padding: 0 0 0 0;
     }
 
     .our-contact-sec-right-last-para p {
@@ -3094,7 +2867,7 @@ textarea {
     input {
         width: 465px;
         height: 51px;
-        padding: 0px 15px;
+        padding: 0 15px;
         margin: 7px 0 21px;
     }
 
@@ -3137,7 +2910,7 @@ textarea {
     .our-contact-sec-right-last-content {
         width: 470px;
         height: 114px;
-        padding: 0px;
+        padding: 0;
         background: linear-gradient(90deg, rgba(246, 213, 78, 1) 5%, rgb(242, 242, 242) 2%);
     }
 
@@ -3190,7 +2963,7 @@ textarea {
     input {
         width: 560px;
         height: 63px;
-        padding: 0px 17px;
+        padding: 0 17px;
         margin: 7px 0 23px;
     }
 
@@ -3233,7 +3006,7 @@ textarea {
     .our-contact-sec-right-last-content {
         width: 602px;
         height: 135px;
-        padding: 0px;
+        padding: 0;
         background: linear-gradient(90deg, rgba(246, 213, 78, 1) 4%, rgb(242, 242, 242) 2%);
     }
 
