@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100%;
+    max-width: 100%;
     margin: 25px 0 25px 25px;
 }
 
@@ -72,13 +72,17 @@
     text-align: right;
     margin: 10px 20px 30px;
 }
-
 .nav-bar p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nav-bar a {
     font-family: var(--default-font-family);
     color: var(--default-white-clr);
     font-size: 20px;
     margin: 13px;
     text-align: center;
+    text-decoration: none;
 }
 
 .nav-open {
@@ -914,71 +918,44 @@
 
 /* Google Map - Location */
 .location-map-container {
-    margin-top: 45px;
+    margin: 50px 0;
     display: flex;
     justify-content: center;
 }
 
 .location-map-wraper iframe {
-    margin-top: 50px;
     min-width: 80%;
     height: 424px;
 }
-
-@media screen and (min-width:414px) {
-    .location-map-sec {
-        display: flex;
-        justify-content: center;
+@media screen and (min-width:414px){
+    .location-map-container {
         align-items: center;
     }
 
-    .location-map-container {
-        width: 90%;
-    }
-
     .location-map-wraper {
-        width: 100%;
+        width: 90%;
         height: 424px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:600px){
+    .location-map-wraper {
+        width: 95%;
+        height: 424px;
+        text-align: center;
     }
 
     .location-map-wraper iframe {
-        margin-top: 50px;
-        min-width: 355px;
+        min-width: 83%;
         height: 424px;
     }
 }
-
-@media screen and (min-width:600px) {
-    .location-map-sec {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .location-map-container {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .location-map-wraper {
-        width: 100%;
-        height: 424px;
-    }
-
-    .location-map-wraper iframe {
-        margin-top: 50px;
-        min-width: 355px;
-        height: 424px;
-    }
-} 
     
  @media screen and (min-width:768px) {
     .location-map-wraper iframe {
         margin-top: 50px;
         min-width: 78%;
-        height: 224px;
+        height: 424px;
     }
 }
 
